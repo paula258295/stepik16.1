@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{lipsum}
+
+\title{Stepik}
+\author{Paulina Krajnik}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    To jest streszczenie pracy.
+\end{abstract}
+
+\section{Wprowadzenie}
+    \lipsum[1]
+
+\section{Rozdział 1}
+    \subsection{Podrozdział 1.1}
+        \lipsum[2]
+    
+    \subsection{Podrozdział 1.2}
+        Przykład równania matematycznego: $E=mc^2$.
+
+\section{Rozdział 2}
+    \lipsum[3]
+
+\section{Rysunki i Tabele}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{rysunek1.png}
+        \caption{Podpis do rysunku 1.}
+        \label{fig:rys1}
+    \end{figure}
+
+    \lipsum[4]
+
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            Nagłówek 1 & Nagłówek 2 \\
+            \hline
+            Wiersz 1.1 & Wiersz 1.2 \\
+            Wiersz 2.1 & Wiersz 2.2 \\
+            \hline
+        \end{tabular}
+        \caption{Tabela 1.}
+        \label{tab:tabela1}
+    \end{table}
+
+\section{Odniesienia}
+    Odniesienie do Rysunku \ref{fig:rys1} oraz Tabeli \ref{tab:tabela1}.
+
+\section{Podsumowanie}
+    \lipsum[5]
+
+\begin{thebibliography}{99}
+    \bibitem{Autor1} Autor1. \emph{Tytuł 1.} Wydawnictwo, Rok.
+    \bibitem{Autor2} Autor2. \emph{Tytuł 2.} Wydawnictwo, Rok.
+\end{thebibliography}
+
+\end{document}
+
